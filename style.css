@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Pacifico|Lobster');
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+::-webkit-input-placeholder {
+	color:#777;
+}
+::-moz-placeholder {
+	color:#777;
+}
+:-moz-placeholder {
+	color:#777;
+}
+:-ms-input-placeholder {
+	color:#777;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	cursor: default;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0 5% 3% 5%;
+	background: #e6e6e6;
+}
+.textmenu{
+	opacity: 0.7;
+	font-size: 50px;
+	color:#fff;
+}
+.iconmenu{
+	opacity: 0.7;
+	font-size: 15px;
+	color:#fff;
+}
+.btnmenu{
+	color: #000;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.btnmenu:hover{
+	color: #fff;
+}
+.btnmenu:focus{
+	color: 222;
+	opacity: 0.6;
+}
+.panelbtn{
+	padding-top: 25px;
+}
+.paneltrabl{
+	justify-content: space-around;
+	padding: 60px 0;
+}
+.white{
+	background: #fff;
+}
+.indigo{
+	background: #d2e2ef;
+}
+.midle{
+	vertical-align: middle;
+}
+.txt{
+	color:#444;
+	font-size: 45px;
+	padding-top: 45px;
+}
+.txtbtn{
+	color:#444;
+	font-size: 30px;
+}
+.btnadd{
+	margin-top: 12px;
+	width: 140px;
+	height: 50px;
+	border-color: #f44336;
+	background: #f44336;
+	outline: none;
+	border-radius: 5px;
+	color: #e6e9ee;
+	cursor: pointer;
+	font-size: 20px;
+}
+.btnadd:hover,.btnadd:focus{
+	opacity: 0.6;
+}
+.strike {
+	margin: 2% 0;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 20px;
+}
+.strike > span {
+	font-family: 'Pacifico', cursive;
+	font-size: 80px;
+	color: #555;
+	position: relative;
+	display: inline-block;
+}
+.strike > span:before,
+.strike > span:after {
+		content: "";
+		position: absolute;
+		top: 60%;
+		width: 9999px;
+		border-top: 4px solid #555;
+}
+.strike > span:before {
+		right: 100%;
+		width: 100px;
+}
+.strike > span:after {
+		left: 100%;
+		width: 100px;
+		margin-left: 25px;
+}
+.iconpanel{
+	margin-top: 30px;
+	width: 100%;
+}
+.iconpanel img{
+	margin: 0 5px;
+}
+.iconpanel div{
+	margin-bottom: 10px;
+	font-size: 40px;
+	color: #555;
+	font-family: 'Lobster', cursive;
+}
+.drop{
+	position: absolute;
+	bottom: 3%;
+	width: 64%;
+}
+.logsig{
+	padding: 55px 20px 20px;
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+}
+.logsig div{
+	margin: 10px 0;
+}
+.label{
+	font-size: 20px;
+	width: 250px;
+	text-align: center;
+	background: #e4e4e4;
+	border: none;
+	padding: 5px 0;
+	border-radius: 5px;
+	outline: none;
+}
+.label:focus{
+	box-shadow: 0 0 1pt 1pt #111;
+}
+.btnlogsig{
+	width: 250px;
+	font-size: 17px;
+	border-radius: 5px;
+	outline: none;
+	padding: 5px 0;
+	color: #fff;
+	border-color: #2196F3;
+	margin-top: 10px;
+	cursor: pointer;
+	background-color: #2196F3;
+}
+.btnlogsig:hover, .btnlogsig:focus{
+	opacity: 0.7;
+}
+.logsigtxt{
+	font-size: 20px;
+	color: #555;
+}
+.home{
+	cursor: pointer;
+	margin-top: -75px;
+}
+.home:hover, .home:focus{
+	opacity: 0.7;
+}
+.feedback{
+	width: 100%;
+	left: 0;
+	font-size: 17px;
+	padding: 7px 0;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	top: 0;
+}
+.red{
+	background: #f44336;
+}
+.green{
+	background: #4caf50;
+}
+.profilecard{
+	text-align: center;
+	padding: 20px;
+	background: #fff;
+}
+.profilecard div{
+	padding: 5px 0;
+}
+.rayting{
+	font-size: 20px;
+	font-weight: 700;
+	justify-content: space-around;
+}
+.profiletxt{
+	justify-content: center;
+}
+.trabl{
+	padding-right: 5px;
+	color: #333;
+	font-weight: 700;
+}
+.nametrab{
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	color: #555;
+	margin: -10px 0;
+}
+.bad{
+	color:#F44336;
+}
+.good{
+	color:#4CAF50;
+}
