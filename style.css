@@ -105,9 +105,11 @@ body {
 	font-size: 30px;
 }
 .btnadd{
-	margin-top: 12px;
+	text-align: center;
+	padding: 12px 0;
+	text-decoration: none;
+	margin: 10px 0;
 	width: 140px;
-	height: 50px;
 	border-color: #f44336;
 	background: #f44336;
 	outline: none;
