@@ -110,7 +110,7 @@ body {
 	text-decoration: none;
 	margin: 12px 0;
 	width: 140px;
-	border-color: #f44336;
+	border: inset 2px #f44336;
 	background: #f44336;
 	outline: none;
 	border-radius: 5px;
