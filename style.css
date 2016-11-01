@@ -105,10 +105,12 @@ body {
 	font-size: 30px;
 }
 .btnadd{
-	margin-top: 12px;
+	text-align: center;
+	padding: 12px 0;
+	text-decoration: none;
+	margin: 12px 0;
 	width: 140px;
-	height: 50px;
-	border-color: #f44336;
+	border: inset 2px #f44336;
 	background: #f44336;
 	outline: none;
 	border-radius: 5px;
