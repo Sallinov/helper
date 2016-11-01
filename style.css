@@ -105,10 +105,12 @@ body {
 	font-size: 30px;
 }
 .btnadd{
-	margin-top: 12px;
+	text-align: center;
+	padding: 12px 0;
+	text-decoration: none;
+	margin: 12px 0;
 	width: 140px;
-	height: 50px;
-	border-color: #f44336;
+	border: inset 2px #f44336;
 	background: #f44336;
 	outline: none;
 	border-radius: 5px;
@@ -120,6 +122,7 @@ body {
 	opacity: 0.6;
 }
 .strike {
+	clear: both;
 	margin: 2% 0;
 	display: block;
 	text-align: center;
@@ -265,4 +268,21 @@ body {
 }
 .good{
 	color:#4CAF50;
+}
+.setig{
+	background: #fff;
+	padding: 50px 7%;
+}
+.set{
+	width: 100%;
+}
+.setig div{
+	margin: 5px;
+}
+.avt{
+	background: #2196f3;
+	padding: 10px 20px 4px 20px;
+	border-radius: 0 0 5px 5px;
+	color: #fff;
+	font-size: 20px;
 }
