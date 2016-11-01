@@ -20,19 +20,20 @@ function reg() {
     div.innerHTML = "Вы зарегистрированы";
     document.body.appendChild(div);
     var login = document.getElementById('login').value,
-    email = document.getElementById('email').value,
-    password = document.getElementById('password').value;
+        email = document.getElementById('email').value,
+        password = document.getElementById('password').value;
+
     fetch('https://agile-wave-66058.herokuapp.com/signup', {
-    method: 'POST',
-    headers: {
-    'Accept': 'application/json',
-    'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-    login:login,
-    mail:email,
-    password:password
-    })
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        login:login,
+        mail:email,
+        password:password
+      })
     });
   }
 }
