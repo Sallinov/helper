@@ -120,6 +120,7 @@ body {
 	opacity: 0.6;
 }
 .strike {
+	clear: both;
 	margin: 2% 0;
 	display: block;
 	text-align: center;
@@ -265,4 +266,21 @@ body {
 }
 .good{
 	color:#4CAF50;
+}
+.setig{
+	background: #fff;
+	padding: 50px 7%;
+}
+.set{
+	width: 100%;
+}
+.setig div{
+	margin: 5px;
+}
+.avt{
+	background: #2196f3;
+	padding: 10px 20px 4px 20px;
+	border-radius: 0 0 5px 5px;
+	color: #fff;
+	font-size: 20px;
 }
