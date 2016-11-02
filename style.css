@@ -57,10 +57,58 @@ body {
 	padding: 0 5% 3% 5%;
 	background: #e6e6e6;
 }
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover, a:focus{
+	opacity: 0.7;
+	font-weight: 700
+}
+.width_all{
+	width: 100%;
+}
 .textmenu{
 	opacity: 0.7;
 	font-size: 50px;
 	color:#fff;
+}
+.coment{
+	overflow-y: auto;
+	width: calc(100% - 70px);
+	background: #fff;
+	margin-left: 10px;
+	height: 409px;
+	padding: 20px;
+}
+.txtcoment{
+	width: calc(100% - 22px);
+	height: 85px;
+	resize: none;
+	font-size: 20px;
+  background: #e4e4e4;
+  border: solid 1px #a9a9a9;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.homee{
+	padding: 20px;
+}
+ .imghome{
+	 border: solid 2px #a9a9a9;
+	 border-radius: 5px;
+ }
+.txtcoment:focus{
+	box-shadow: 0 0 1pt 1pt #111;
+}
+.addcoment{
+	width: calc(100% - 70px);
+	height: 152px;
+	background: #fff;
+	margin-top: 10px;
+	padding: 20px;
+	margin-left: 10px;
 }
 .iconmenu{
 	opacity: 0.7;
@@ -261,7 +309,7 @@ body {
 	font-family: 'Pacifico', cursive;
 	font-size: 40px;
 	color: #555;
-	margin: -10px 0;
+	margin: -30px 0 -10px;
 }
 .bad{
 	color:#F44336;
@@ -281,7 +329,7 @@ body {
 }
 .avt{
 	background: #2196f3;
-	padding: 10px 20px 4px 20px;
+	padding: 5px 20px 4px 20px;
 	border-radius: 0 0 5px 5px;
 	color: #fff;
 	font-size: 20px;

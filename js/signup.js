@@ -14,6 +14,9 @@ function reg() {
     div.className = "feedback red";
     div.innerHTML = "Заполните поле : "+error;
     document.body.appendChild(div);
+    setTimeout(function() {
+      div.parentNode.removeChild(div);
+    }, 1500);
   }else{
     var div = document.createElement('div');
     div.className = "feedback green";
@@ -22,7 +25,9 @@ function reg() {
     var login = document.getElementById('login').value,
         email = document.getElementById('email').value,
         password = document.getElementById('password').value;
-
+    setTimeout(function() {
+      div.parentNode.removeChild(div);
+    }, 1500);
     fetch('https://agile-wave-66058.herokuapp.com/signup', {
       method: 'POST',
       headers: {

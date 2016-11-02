@@ -11,11 +11,18 @@ function log() {
     div.className = "feedback red";
     div.innerHTML = "Заполните поле : "+error;
     document.body.appendChild(div);
+    setTimeout(function() {
+      div.parentNode.removeChild(div);
+    }, 1500);
   }else{
-    //var div = document.createElement('div');
-    //div.className = "feedback green";
-    //div.innerHTML = "Вы авторизированны";
-    //document.body.appendChild(div);
+    var div = document.createElement('div');
+    div.className = "feedback green";
+    div.innerHTML = "Вы авторизированны";
+    div.style.top = "-33px;"
+    document.body.appendChild(div);
+    setTimeout(function() {
+      div.parentNode.removeChild(div);
+    }, 1500);
     var login = document.getElementById('login').value,
         password = document.getElementById('password').value;
         data = JSON.stringify({
@@ -25,10 +32,11 @@ function log() {
     fetch('https://agile-wave-66058.herokuapp.com/login', {
       method: 'POST',
       headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
       },
-      body: data
+      body: data ,
+      credentials: 'include'
     }).then(function(response){
       return response.json().then(function(data){
           document.getElementById('log').innerHTML = data.login;
